@@ -1,0 +1,833 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.parallax{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("img/sfondo.jpg");
+    min-height: 100%;
+}
+
+.contenitore{
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    padding:0 0px 0px 0px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+}
+/*1° parte--------------------------------------------------------------------------------------*/
+.barra{
+    width: 90%;
+    height: auto;
+    margin: 0 0 0 5%;
+    padding:0 0px  0 0px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom: grey solid 1px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 0.6em;
+    flex: 1;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.abbonati{
+    flex: 4;
+    text-align:center;
+}
+.menu{
+    flex: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin:0;
+}
+.testoMenu{
+    width: 95%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.immagineMenu{
+    width: 5%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#barrette{
+    width: 10px;
+    margin-right: 2px;
+}
+
+.finali{
+    text-align: right;
+}
+.bordo{
+    border-right: 1px solid darkgray;
+}
+.cerca{
+    display: flex;
+    flex-direction: row;
+}
+#lente{
+    width:10px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.item a{
+    color: black;
+    text-decoration: none;
+
+}
+.item a:hover{
+    color: cornflowerblue;
+}
+
+
+/*2° parte---------------------------------------------------------------------------------------*/
+.videoConsiglio{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin:45px 0 0 0;
+    background-color: #35414f;
+    display: flex;
+}
+.immagine{
+    float: right;
+
+    width: 25%;
+    height: auto;
+    margin: 10px;
+
+}
+#inizio{
+
+    width: 100%;
+    height: auto;
+}
+.testo{
+
+    width: 75%;
+    margin: 10px 60px 0 0;
+}
+.testo a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.testo a:hover{
+    color: cornflowerblue;
+}
+
+
+
+/*3° parte---------------------------------------------------------------------------------------*/
+
+.logo{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 20px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.logoPr{
+    width: 50%;
+    margin: auto;
+
+}
+#imgLogo{
+    width: 100%;
+    height: auto;
+    position: center;
+}
+.scritta{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.data{
+    width:100%;
+    height: auto;
+    text-align: center;
+    margin:0;
+    padding: 0;
+}
+#nuvola{
+    width: 20px;
+    margin-right: 2px;
+}
+#lente2{
+    width:12px;
+    height: auto;
+    margin-right: 5px;
+}
+
+
+/*4° parte-------------------------------------------------------------------------------------*/
+.menù{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin:0;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: grey solid 1px;
+    border-bottom: none;
+
+}
+#tendina{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+
+
+}
+li{
+    flex:1;
+    text-align: center;
+    margin:0;
+    padding:0;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/*5° parte-------------------------------------------------------------------------------------*/
+.primoPiano{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin:0;
+    top: 0;
+    left: 0;
+    background-color: #eaf4ff;
+    border: grey solid 1px;
+    border-bottom: orangered solid 2px;
+
+
+}
+#titoli{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+}
+.primoPiano a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    margin-left:5px;
+}
+.primoPiano a:hover{
+    color: cornflowerblue;
+}
+
+/*7° parte-------------------------------------------------------------------------------------*/
+.pubblicità{
+    width: 100%;
+    height: auto;
+    border-left: grey solid 1px ;
+    border-right: grey solid 1px;
+    padding-top: 1em;
+}
+#adv{
+    width:100%;
+    height: auto;
+}
+
+
+
+/*6° parte-------------------------------------------------------------------------------------*/
+
+.articoli{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin:0;
+    top: 0;
+    left: 0;
+    /*background-color: pink;*/
+    display: flex;
+    border-left: grey solid 1px ;
+    border-right: grey solid 1px;
+   /* justify-content: center;*/
+}
+.sezioni{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-top: grey solid 1px;
+    margin-right: 3px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+    /*padding: 20px;*/
+}
+.sezioni h3{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top:4px;
+    margin-bottom:6px;
+    padding: 10px;
+    border-top: lightgrey 1px solid;
+}
+.sezioni h5{
+    margin:5px 0 0 0;
+    font-family: sans-serif;
+    color: cornflowerblue ;
+}
+.sezioni h1{
+    margin: 0;
+}
+.sezioni a, .video a, .bTitolo a, .approfondimento a{
+    text-decoration: none;
+    color: black;
+}
+.sezioni a:hover, .video a:hover , .bTitolo a:hover, .approfondimento a:hover{
+    color: cornflowerblue;
+}
+
+.tipo{
+    display: flex;
+    margin: 15px 0 0 0;
+    padding: 0 0 15px 0;
+    top:0;
+    left: 0;
+    border-bottom: grey solid 1px;
+    flex-direction: row;
+
+}
+.tipo img{
+    width: 100%;
+}
+
+/**/
+.z{
+    width: 64%;
+    margin-right: 1%;
+    text-align: left;
+}
+.b{
+    width: 35%;
+    font-size: large;
+    text-align: left;
+}
+
+/**/
+.c{
+    width: 49%;
+    margin-right: 1%;
+    text-align: left;
+}
+.d{
+    padding: 0;
+    width: 49%;
+    margin-right: 0;
+    margin-left: 1%;
+    text-align: left;
+}
+
+/**/
+.e{
+    width:100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+/**/
+.h{
+    text-align: left;
+    flex-direction: row;
+}
+.i{
+    flex-direction: column;
+    padding:2%;
+}
+
+
+
+.video{
+    width: 30%;
+    height: auto;
+    margin-left: 3px;
+    margin-right: 10px;
+    background-color: #ebebeb;
+    border-top: grey solid 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.video h3{
+    margin:0;
+    top:0;
+    bottom: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+.video img{
+    width: 100%;
+    margin-top:5%;
+}
+.video h5{
+    font-family: sans-serif;
+    color: cornflowerblue ;
+    margin-bottom: 0;
+
+}
+.video h2{
+    margin-top:0;
+}
+h8{
+    color: lightgrey;
+    font-family: sans-serif;
+    margin-bottom: 0;
+
+}
+#podcast{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.editoriale{
+    border-top: #f56100 solid 2px;
+}
+.editoriale h3{
+    font-family: "Times New Roman", serif;
+    color: #f56100;
+    margin-top: 2%;
+}
+.commento{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+}
+.cImmagine{
+    width: 20%;
+    margin: 2%;
+}
+.profilo{
+    border-radius: 100%;
+}
+.cTesto{
+    width:78%;
+    text-align: left;
+}
+.autore{
+    color:#f56100;
+    font-family: sans-serif ;
+    margin-top: 0;
+    font-weight: bold;
+}
+.cTitolo{
+    font-size: large;
+    font-weight: bold;
+}
+
+/*8° parte-------------------------------------------------------------------------------------*/
+.blu{
+    background-color: #eaf4ff ;
+    /*padding-left: 2%;
+    padding-top: 1%;*/
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: lightgrey 1px solid;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+.titoloBlu{
+    background-color: #eaf4ff;
+    margin:0;
+    padding-top: 1%;
+    padding-left: 1%;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-top: black solid 2px;
+}
+.internoBlu{
+    width:98%;
+    margin: 1%;
+}
+.bImmagine{
+    width: 100%;
+}
+.bArgomento{
+    margin:0;
+    padding-top:2%;
+    font-size: small;
+    color: cornflowerblue;
+}
+.bTitolo{
+    margin:0;
+    padding-top:2%;
+}
+
+
+/*9° parte-------------------------------------------------------------------------------------*/
+.approfondimento{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+.approfondimento img{
+    width:100%;
+    margin:0;
+    padding: 0;
+    top:0;
+    left:0;
+}
+.titoloApprofondimento{
+    margin:0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    border-top: black solid 1px;
+    text-align: center;
+}
+.app1{
+    display: flex;
+    width: 100%;
+    margin:0;
+    top:0;
+    left:0;
+    flex-direction: row;
+    border-top: lightgrey 1px solid;
+}
+.app1A{
+    width: 50%;
+    margin:0;
+    top:0;
+    left:0;
+    padding: 1%;
+    text-align: center;
+}
+
+.app1B{
+    width: 25%;
+    margin:0;
+    top:0;
+    left:0;
+    padding:1%;
+    font-family: sans-serif;
+    font-size: small;
+
+
+
+}
+.approfondimento h5, .approfondimento h2{
+    margin:1% 0;
+}
+.approfondimento h5{
+    color: cornflowerblue;
+}
+.app2{
+    display: flex;
+    width: 100%;
+    margin:0;
+    top:0;
+    left:0;
+    flex-direction: row;
+    border-top: lightgrey 1px solid;
+}
+.app2A{
+    width: 20%;
+    padding: 1%;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+/*10° parte-------------------------------------------------------------------------------------*/
+.finale{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.x, .y, .z{
+    flex: 1;
+    font-family: sans-serif;
+}
+.x{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: grey solid 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#n{
+    width:50%;
+    font-weight: bold;
+    padding-left: 1%;
+    text-align: left;
+    font-size: larger;
+    color: #454545;
+}
+#e{
+    width:50%;
+    text-align: right;
+    padding-right: 1%;
+}
+
+.y{
+    width: 96%;
+    background-color: #454545;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.s{
+    width: 100%;
+}
+.y a{
+    flex: auto;
+    color: white;
+    text-decoration:none;
+    font-size: small;
+
+}
+.y a:hover{
+    border-bottom: cornflowerblue solid 2px;
+}
+
+.w{
+    width: 96%;
+    padding:2%;
+    background-color: #4f5054;
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+}
+.w a{
+    color: white;
+    text-decoration:none;
+    border-bottom: red 2px solid;
+}
+.w a:hover{
+    background-color: white;
+    color: red;
+    border-bottom: none;
+}
+
+
+
+
+/****************************************************************************************************************************************/
+@media screen and (max-device-width: 768px)  {
+    .parallax{
+        background-image: none;
+    }
+    .contenitore{
+        width: 98%;
+        margin-left: 1%;
+        padding: 0;
+    }
+    .barra{
+        width: 100%;
+        margin:0;
+    }
+    .articoli, .blu{
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+    }
+    .video, .sezioni{
+        width:100%;
+        margin:0;
+        left: 0;
+        padding: 0;
+    }
+    .tipo{
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+    }
+    .z, .b, .c, .d, .e, .h, .i{
+        width: 100%;
+        text-align: center;
+        margin:0;
+        padding: 0;
+    }
+    .tipo h5{
+        font-size: large;
+    }
+    .cImmagine{
+        width:10%;
+    }
+
+
+    .logoPr{
+        display: none;
+    }
+    .scritta{
+        margin-top: 2%;
+    }
+
+    .barra{
+
+
+    }
+    .cerca, .gs{
+        display: none;
+    }
+    .abbonati{
+        width: 100%;
+        text-align: left;
+    }
+    .app1, .app2{
+        flex-direction: column;
+    }
+    .app1A, .app1B, .app2A{
+        width: 100%;
+        padding: 0;
+        margin-top: 2%;
+        border-bottom: 1px solid lightgrey;
+    }
+    .app h5{
+        font-size: larger;
+    }
+    .x{
+        display: none;
+    }
+    .y{
+        margin-top: 3%;
+
+    }
+    .t{
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px){
+    .parallax{
+        background-image: none;
+    }
+    .contenitore{
+        width: 98%;
+        margin-left: 1%;
+        padding: 0;
+    }
+    .barra{
+        width: 100%;
+        margin:0;
+    }
+    .articoli, .blu{
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+    }
+    .video, .sezioni{
+        width:100%;
+        margin:0;
+        left: 0;
+        padding: 0;
+    }
+    .tipo{
+        flex-direction: column;
+        margin:0;
+        padding: 0;
+    }
+    .z, .b, .c, .d, .e, .h, .i{
+        width: 100%;
+        text-align: center;
+        margin:0;
+        padding: 0;
+    }
+    .tipo h5{
+        font-size: large;
+    }
+    .cImmagine{
+        width:10%;
+    }
+
+
+    .logoPr{
+        display: none;
+    }
+    .scritta{
+        margin-top: 2%;
+    }
+
+    .barra{
+
+    }
+    .cerca, .gs{
+        display: none;
+    }
+    .abbonati{
+        width: 100%;
+        text-align: left;
+    }
+    .app1, .app2{
+        flex-direction: column;
+    }
+    .app1A, .app1B, .app2A{
+        width: 100%;
+        padding: 0;
+        margin-top: 2%;
+        border-bottom: 1px solid lightgrey;
+    }
+    .app h5{
+        font-size: larger;
+    }
+    .x{
+        display: none;
+    }
+    .y{
+        margin-top: 3%;
+
+    }
+    .t{
+        display: none;
+    }
+
+
+
+}
+
