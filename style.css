@@ -739,6 +739,9 @@ h8{
     .t{
         display: none;
     }
+    .barra a, .scritta, .menù, .primoPiano{
+        font-size: larger;
+    }
 
 
 }
@@ -826,6 +829,10 @@ h8{
     .t{
         display: none;
     }
+    .barra a, .scritta, .menù, .primoPiano{
+        font-size: larger;
+    }
+
 
 
 
