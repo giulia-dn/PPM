@@ -211,18 +211,19 @@ body, html{
 
 
 }
-li{
+.menù li{
     flex:1;
     text-align: center;
     margin:0;
     padding:0;
 
 }
-li a{
+.menù li a{
     text-decoration: none;
     color: black;
 
 }
+
 
 
 /*5° parte-------------------------------------------------------------------------------------*/
@@ -698,18 +699,6 @@ h8{
         width:10%;
     }
 
-
-    .logoPr{
-        display: none;
-    }
-    .scritta{
-        margin-top: 2%;
-    }
-
-    .barra{
-
-
-    }
     .cerca, .gs{
         display: none;
     }
@@ -747,7 +736,7 @@ h8{
         font-size: large;
     }
     .scritta{
-        font-size: smaller;
+        font-size: small;
     }
 
 
@@ -796,17 +785,6 @@ h8{
         width:10%;
     }
 
-
-    .logoPr{
-        display: none;
-    }
-    .scritta{
-        margin-top: 2%;
-    }
-
-    .barra{
-
-    }
     .cerca, .gs{
         display: none;
     }
